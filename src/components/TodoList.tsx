@@ -18,7 +18,7 @@ export const TodoList = (props: TodoListType) => {
       <div>
          <h3>{props.title}</h3>
          <input type="text"/>
-         <button>add</button>
+         <button>+</button>
          <ul>
             {
                props.task.map(t => {
